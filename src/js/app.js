@@ -1,4 +1,13 @@
-'use strict';
+import * as flsFunctions from "./modules/functions.js";
+
+flsFunctions.isWebp();
+
+/*
+import Swiper, { Navigation, Pagination } from 'swiper';
+const swiper = new Swiper();
+*/
+
+new WOW().init();
 
 const modalReg = document.querySelector('#reg'),
     modalLogin = document.querySelector('#login'),
